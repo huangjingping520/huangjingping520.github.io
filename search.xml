@@ -18,4 +18,36 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>信息查询方式</title>
+    <url>/2020/06/19/%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%E6%96%B9%E5%BC%8F/</url>
+    <content><![CDATA[<h2 id="信息查询"><a href="#信息查询" class="headerlink" title="信息查询"></a>信息查询</h2><ul>
+<li><a href="www.google.com">Google</a>：信息检索质量较高，广告几乎没有，最好使用英文检索。</li>
+<li><a href="www.github.com">GitHub</a>：README,issues</li>
+<li><a href="https://www.thefreedictionary.com/official+document" target="_blank" rel="noopener">Official Documentation</a>:毋庸置疑</li>
+<li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN</a>：前端权威的文档</li>
+<li><a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a>：高质量的问答社区</li>
+<li><a href="https://www.runoob.com/" target="_blank" rel="noopener">菜鸟教程</a>：很好入门</li>
+<li>知名博客：需要甄别<ul>
+<li>阮一峰</li>
+<li>廖雪峰</li>
+<li>张鑫旭</li>
+<li>etc.</li>
+</ul>
+</li>
+<li><a href="https://juejin.im/" target="_blank" rel="noopener">掘金</a>/<a href="https://segmentfault.com/" target="_blank" rel="noopener">Segment Fault</a>：需要甄别</li>
+<li>简书：需要甄别</li>
+<li>CSDN(Bad option)：更加需要甄别</li>
+</ul>
+<ul>
+<li>本篇内容来自<a href="https://github.com/Wzb3422/roadmap-for-2019-novice" target="_blank" rel="noopener" title="Wzb3422">Wzb3422</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Study</tag>
+      </tags>
+  </entry>
 </search>
