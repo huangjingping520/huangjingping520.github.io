@@ -601,24 +601,37 @@ $(function() {
                 break;
             // comment
             case - 1 != tag.indexOf("comment"): 
-				if($('#gitalk-container').data('enable') == true){
-					Diaspora.loading(),
-					comment = $('#gitalk-container');
-					gitalk = new Gitalk({
-					  clientID: comment.data('ci'),
-					  clientSecret: comment.data('cs'),
-					  repo: comment.data('r'),
-					  owner: comment.data('o'),
-					  admin: comment.data('a'),
-					  id: decodeURI(window.location.pathname),
-					  distractionFreeMode: comment.data('d')
-					})
-					$(".comment").removeClass("link")
-					gitalk.render('gitalk-container')
-					Diaspora.loaded();
-				}else{
-					$('#gitalk-container').html("评论已关闭");
-				}
+            if($('#gitalk-container').data('enable') == true){
+                Diaspora.loading(),
+                comment = $('#gitalk-container');
+                gitalk = new Valine({
+                el: '#gitalk-container' ,
+                appId: '5V2b4bgbyADgaJ7bwoEnGjcd-gzGzoHsz',
+                appKey: 'Bfaoirn4wh5RFUbSmcsI51cb',
+                notify:false, 
+                verify:true, 
+                avatar:'robohash',
+                placeholder: '到此一游'
+                })
+                $(".comment").removeClass("link")
+                gitalk.render('gitalk-container')
+                Diaspora.loaded();
+                }else{
+                Diaspora.loading(),
+                comment = $('#gitalk-container');
+                gitalk = new Valine({
+                el: '#gitalk-container' ,
+                appId: '5V2b4bgbyADgaJ7bwoEnGjcd-gzGzoHsz',
+                appKey: 'Bfaoirn4wh5RFUbSmcsI51cb',
+                notify:false,
+                verify:true, 
+                avatar:'robohash',
+                placeholder: '到此一游'
+                })
+                $(".comment").removeClass("link")
+                gitalk.render('gitalk-container')
+                Diaspora.loaded();
+                }
                 return false;
                 break;
             default:
