@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rookie&#39;s evolution</title>
+  
+  <subtitle>Merlin Alex</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-06-19T14:26:54.856Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>MerlinAlex</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>信息查询方式</title>
+    <link href="http://yoursite.com/2020/06/19/%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%E6%96%B9%E5%BC%8F/"/>
+    <id>http://yoursite.com/2020/06/19/%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%E6%96%B9%E5%BC%8F/</id>
+    <published>2020-06-19T14:23:44.000Z</published>
+    <updated>2020-06-19T14:26:54.856Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="信息查询"><a href="#信息查询" class="headerlink" title="信息查询"></a>信息查询</h2><ul><li><a href="www.google.com">Google</a>：信息检索质量较高，广告几乎没有，最好使用英文检索。</li><li><a href="www.github.com">GitHub</a>：README,issues</li><li><a href="https://www.thefreedictionary.com/official+document" target="_blank" rel="noopener">Official Documentation</a>:毋庸置疑</li><li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN</a>：前端权威的文档</li><li><a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a>：高质量的问答社区</li><li><a href="https://www.runoob.com/" target="_blank" rel="noopener">菜鸟教程</a>：很好入门</li><li>知名博客：需要甄别<ul><li>阮一峰</li><li>廖雪峰</li><li>张鑫旭</li><li>etc.</li></ul></li><li><a href="https://juejin.im/" target="_blank" rel="noopener">掘金</a>/<a href="https://segmentfault.com/" target="_blank" rel="noopener">Segment Fault</a>：需要甄别</li><li>简书：需要甄别</li><li>CSDN(Bad option)：更加需要甄别</li></ul><ul><li>本篇内容来自<a href="https://github.com/Wzb3422/roadmap-for-2019-novice" target="_blank" rel="noopener" title="Wzb3422">Wzb3422</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;信息查询&quot;&gt;&lt;a href=&quot;#信息查询&quot; class=&quot;headerlink&quot; title=&quot;信息查询&quot;&gt;&lt;/a&gt;信息查询&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;www.google.com&quot;&gt;Google&lt;/a&gt;：信息检索质量较高，广告几乎没有，最好使用
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="http://yoursite.com/categories/Tools/"/>
+    
+    
+      <category term="Study" scheme="http://yoursite.com/tags/Study/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/06/19/hello-world/"/>
+    <id>http://yoursite.com/2020/06/19/hello-world/</id>
+    <published>2020-06-19T12:40:47.829Z</published>
+    <updated>2020-06-19T12:40:47.829Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
