@@ -213,6 +213,105 @@
             
 
   
+    <article id="post-Css基础语法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2020/10/19/Css%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">Css基础语法</a>
+	
+    </h1>
+  
+
+
+  
+  
+<a href="/2020/10/19/Css%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" class="archive-article-date">
+        <time datetime="2020-10-19T06:28:03.049Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-19</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="CSS语法"><a href="#CSS语法" class="headerlink" title="CSS语法"></a>CSS语法</h1><h2 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h2><p>CSS规则由两个主要的部分构成：选择器以及一条或者多条声明</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">selector&#123;declaration&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>结构：</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/huangjingping520/PicGo/ct_css_selector.gif" alt="示例"></p>
+<h3 id="值的不同写法"><a href="#值的不同写法" class="headerlink" title="值的不同写法"></a>值的不同写法</h3><p>除了单词，还可以使用十六进制的颜色值</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;<span class="attribute">color</span>:<span class="number">#ff0000</span>;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>有时还可以使用CSS的缩写形式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;<span class="attribute">color</span>:<span class="number">#f00</span>;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>还可以使用RGB值</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;<span class="attribute">color</span>:<span class="built_in">rgb</span>(<span class="number">255</span>,<span class="number">0</span>,<span class="number">0</span>);&#125;</span><br><span class="line"><span class="selector-tag">p</span>&#123;<span class="attribute">color</span>:<span class="built_in">rgb</span>(<span class="number">100%</span>,<span class="number">0%</span>,<span class="number">0%</span>);&#125;</span><br></pre></td></tr></table></figure>
+
+<p>若值为若干单词，则要给值加引号</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span>&#123;<span class="attribute">font-family</span>:<span class="string">"sans serif"</span>&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="多重声明"><a href="#多重声明" class="headerlink" title="多重声明"></a>多重声明</h3><p>如果定义不止一个声明，则需要用分号将每个声明分开，在每行只描述一个属性，可以增加定义的可读性</p>
+<h2 id="高级语法"><a href="#高级语法" class="headerlink" title="高级语法"></a>高级语法</h2><h3 id="选择器的分组"><a href="#选择器的分组" class="headerlink" title="选择器的分组"></a>选择器的分组</h3><p>对选择器分组，被分组的选择器可以共享相同的声明，用逗号将需要分组的选择器分开。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h1</span>,<span class="selector-tag">h2</span>,<span class="selector-tag">h3</span>,<span class="selector-tag">h4</span>,<span class="selector-tag">h5</span>,<span class="selector-tag">h6</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:green;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><p>根据CSS，子元素从父元素继承属性</p>
+<h2 id="派生选择器"><a href="#派生选择器" class="headerlink" title="派生选择器"></a>派生选择器</h2><p><strong>通过元素在其位置的上下文关系来定义样式，可以使标记更加简洁</strong></p>
+
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2020/10/19/Css%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Css垂直居中" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -303,9 +402,6 @@
 
 <p>使用align-items或align-content的属性</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.use-flexbox</span>&#123;</span><br><span class="line">    <span class="attribute">display</span>:flex;</span><br><span class="line">    <span class="attribute">align-items</span>:center;</span><br><span class="line">    <span class="attribute">justify-content</span>:center;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">200px</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">150px</span>;</span><br><span class="line">    <span class="attribute">border</span>:<span class="number">1px</span> solid <span class="number">#000</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.use-flexbox</span> <span class="selector-tag">div</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">100px</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">50px</span>;</span><br><span class="line">    <span class="attribute">background</span>:<span class="number">#099</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
 
     
 
@@ -565,7 +661,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2019-2020 <a href="https://www.hjpblog.top/" target="_blank">MerlinAlex</a>
+    		&copy; 2019-2021 <a href="https://www.hjpblog.top/" target="_blank">MerlinAlex</a>
     	</div>
       	<div class="footer-right">
 			
